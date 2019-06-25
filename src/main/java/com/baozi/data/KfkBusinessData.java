@@ -1,4 +1,4 @@
-package com.laidantech.data;
+package com.baozi.data;
 
 
 import lombok.Data;

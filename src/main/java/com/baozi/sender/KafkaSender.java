@@ -1,4 +1,4 @@
-package com.laidantech.sender;
+package com.baozi.sender;
 
 /**
  * kafka发送者接口
@@ -11,5 +11,5 @@ public interface KafkaSender<T> {
      * @param obj 发送的数据
      * @param topic topic 主题
      */
-    public void send(T obj,String topic);
+    void send(T obj,String topic);
 }
